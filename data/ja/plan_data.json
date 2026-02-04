@@ -2,7 +2,7 @@
   {
     "id": 0,
     "name": "お得な特典付きプラン",
-    "roomBill": 7000,
+    "roomBill": 10500,
     "minHeadCount": 1,
     "maxHeadCount": 9,
     "minTerm": 1,
@@ -14,7 +14,7 @@
   {
     "id": 1,
     "name": "プレミアムプラン",
-    "roomBill": 10000,
+    "roomBill": 15000,
     "minHeadCount": 2,
     "maxHeadCount": 9,
     "minTerm": 1,
@@ -26,7 +26,7 @@
   {
     "id": 2,
     "name": "ディナー付きプラン",
-    "roomBill": 8500,
+    "roomBill": 12750,
     "minHeadCount": 1,
     "maxHeadCount": 4,
     "minTerm": 1,
@@ -38,7 +38,7 @@
   {
     "id": 3,
     "name": "お得なプラン",
-    "roomBill": 6000,
+    "roomBill": 9000,
     "minHeadCount": 1,
     "maxHeadCount": 9,
     "minTerm": 1,
@@ -50,7 +50,7 @@
   {
     "id": 4,
     "name": "素泊まり",
-    "roomBill": 5500,
+    "roomBill": 8250,
     "minHeadCount": 1,
     "maxHeadCount": 2,
     "minTerm": 1,
@@ -62,7 +62,7 @@
   {
     "id": 5,
     "name": "出張ビジネスプラン",
-    "roomBill": 7500,
+    "roomBill": 11250,
     "minHeadCount": 1,
     "maxHeadCount": 2,
     "minTerm": 1,
@@ -74,7 +74,7 @@
   {
     "id": 6,
     "name": "エステ・マッサージプラン",
-    "roomBill": 9000,
+    "roomBill": 13500,
     "minHeadCount": 1,
     "maxHeadCount": 6,
     "minTerm": 1,
@@ -86,7 +86,7 @@
   {
     "id": 7,
     "name": "貸し切り露天風呂プラン",
-    "roomBill": 9000,
+    "roomBill": 13500,
     "minHeadCount": 1,
     "maxHeadCount": 6,
     "minTerm": 1,
@@ -98,7 +98,7 @@
   {
     "id": 8,
     "name": "カップル限定プラン",
-    "roomBill": 8000,
+    "roomBill": 12000,
     "minHeadCount": 2,
     "maxHeadCount": 2,
     "minTerm": 1,
@@ -110,7 +110,7 @@
   {
     "id": 9,
     "name": "テーマパーク優待プラン",
-    "roomBill": 10000,
+    "roomBill": 15000,
     "minHeadCount": 1,
     "maxHeadCount": 9,
     "minTerm": 1,

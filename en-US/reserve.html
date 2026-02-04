@@ -84,6 +84,21 @@
               <input type="text" class="form-control" name="username" id="username" required>
               <div class="invalid-feedback"></div>
             </div>
+              <div class="form-group">
+                <label for="gender">Gender</label>
+                <select class="form-control" name="gender" id="gender">
+                  <option value="1">male</option>
+                  <option value="2">female</option>
+                  <option value="9">other</option>
+                  <option value="0" selected>No answer</option>
+                </select>
+                <div class="invalid-feedback"></div>
+              </div>
+              <div class="form-group">
+                <label for="age">Age</label>
+                <input type="number" class="form-control" name="age" id="age" min="0" max="120" step="1" inputmode="numeric">
+                <div class="invalid-feedback"></div>
+              </div>
             <div class="form-group">
               <label for="contact">Confirmation <span class="badge badge-primary">required</span></label>
               <select class="form-control" name="contact" id="contact" required>

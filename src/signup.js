@@ -28,6 +28,7 @@ $(function() {
 
     // Submit or error
     if (this.checkValidity()) {
+      const ageValue = $('#age').val();
       const newUser = {
         'email': $('#email').val(),
         'password': $('#password').val(),
@@ -36,6 +37,7 @@ $(function() {
         'address': $('#address').val(),
         'tel': $('#tel').val(),
         'gender': $('#gender').val(),
+        'age': ageValue ? parseInt(ageValue, 10) : '',
         'birthday': $('#birthday').val(),
         'notification': $('#notification').prop('checked'),
       };

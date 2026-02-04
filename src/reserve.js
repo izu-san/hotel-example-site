@@ -136,6 +136,7 @@ $(function() {
       }
     }
     if (this.checkValidity()) {
+      const ageValue = $('#age').val();
       const reservation = {
         'roomBill': parseInt($('#room-bill-hidden').val(), 10),
         'planName': $('#plan-name-hidden').val(),
@@ -146,6 +147,8 @@ $(function() {
         'earlyCheckIn': $('#early-check-in').prop('checked'),
         'sightseeing': $('#sightseeing').prop('checked'),
         'username': $('#username').val(),
+        'gender': $('#gender').val(),
+        'age': ageValue ? parseInt(ageValue, 10) : '',
         'contact': $('#contact').val(),
         'email': $('#email').val(),
         'tel': $('#tel').val(),

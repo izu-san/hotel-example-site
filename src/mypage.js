@@ -32,6 +32,7 @@ $(function() {
   $('#address').text(user.address ? user.address : t('user.unregistered'));
   $('#tel').text(user.tel ? user.tel : t('user.unregistered'));
   $('#gender').text(DISPLAY_GENDER[user.gender]);
+  $('#age').text(user.age !== undefined && user.age !== '' ? user.age : t('user.unregistered'));
   $('#birthday').text(user.birthday ? formatDateLong(parseDateISO(user.birthday)) : t('user.unregistered'));
   $('#notification').text(user.notification ? t('user.notification.true') : t('user.notification.false'));
 
